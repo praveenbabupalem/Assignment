@@ -1,0 +1,39 @@
+.imageDetails {
+  width: 300px;
+  background-size: cover;
+}
+
+.displayFlex {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.description-width-details {
+  width: 300px;
+}
+
+.bgc-details {
+  background-color: #ffffff;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .bgc-details {
+    margin-left: 0px;
+  }
+}
+
+.anchorButton {
+  border: 1px solid #25282b;
+  border-radius: 10px;
+  height: 32px;
+  width: 120px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .displayFlex {
+    display: flex;
+    flex-direction: column;
+  }
+}
