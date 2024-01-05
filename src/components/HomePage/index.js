@@ -14,7 +14,7 @@ const HomePage = () => (
           Projects
         </button>
       </a>
-      <a href="https://www.linkedin.com" target="__blank">
+      <a href="https://www.linkedin.com/in/praveen-babu-palem" target="__blank">
         <button type="button" className="linkedInButton">
           LinkedIn
         </button>

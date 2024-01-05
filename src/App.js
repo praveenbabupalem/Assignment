@@ -1,11 +1,10 @@
 import './App.css'
 
-import Header from './components/Header/index'
-import HomePage from './components/HomePage/index'
-import FormPage from './components/FormPage/index'
-import AddressPage from './components/AddressPage/index'
+import Header from './components/Header'
+import HomePage from './components/HomePage'
+import FormPage from './components/FormPage'
+import AddressPage from './components/AddressPage'
 
-// Replace your code here
 const App = () => (
   <div>
     <Header />
