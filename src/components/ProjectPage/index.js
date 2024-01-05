@@ -9,7 +9,7 @@ const ProjectPage = props => {
         <img src={image} alt={name} className="imageDetails" />
       </div>
       <div className="bgc-details">
-        <p>Project {number + 1}</p>
+        <p className="addingBgc">Project {number + 1}</p>
         <h1>{name}</h1>
         <p className="description-width-details">{description}</p>
         <a href={link} target="__blank">

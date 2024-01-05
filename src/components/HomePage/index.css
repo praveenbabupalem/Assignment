@@ -24,6 +24,10 @@
 @media screen and (max-width: 768px) {
   .homePageContainer {
     width: 300px;
+    margin-left: 100px;
+  }
+  .HomePageDescription {
+    width: 350px;
   }
 }
 

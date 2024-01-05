@@ -14,9 +14,10 @@
   padding-bottom: 25px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
   .nav-content {
     justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
   }
 }
@@ -30,26 +31,31 @@
   list-style-type: none;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-image: url('https://res.cloudinary.com/dojn2omox/image/upload/v1704401475/attachment_vorjfu.png');
-  height: 20vh;
-  background-size: cover;
-  text-align: center;
-  width: 100%;
 }
 
 .nav-menu-item {
   font-family: 'Roboto';
   text-decoration: none;
   margin: 10px;
-  font-weight: 400;
+  color: black;
+  font-weight: 600;
   font-size: 16px;
 }
 
 .head-details-nav {
   font-size: 20px;
   font-weight: 600;
+  margin-left: 40px;
 }
 
 a {
   text-decoration: none;
+}
+
+.bgiDetails {
+  background-image: url('https://res.cloudinary.com/dojn2omox/image/upload/v1704401475/attachment_vorjfu.png');
+  background-size: cover;
+  height: 250px;
+  width: 300px;
+  padding-top: 100px;
 }

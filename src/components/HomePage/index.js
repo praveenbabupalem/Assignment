@@ -14,9 +14,11 @@ const HomePage = () => (
           Projects
         </button>
       </a>
-      <button type="button" className="linkedInButton">
-        LinkedIn
-      </button>
+      <a href="https://www.linkedin.com" target="__blank">
+        <button type="button" className="linkedInButton">
+          LinkedIn
+        </button>
+      </a>
     </div>
   </div>
 )

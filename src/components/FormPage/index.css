@@ -44,3 +44,10 @@ label {
   font-size: 16px;
   font-weight: 600;
 }
+
+.detailsOfProjects {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

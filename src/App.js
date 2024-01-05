@@ -9,6 +9,7 @@ import AddressPage from './components/AddressPage/index'
 const App = () => (
   <div>
     <Header />
+
     <HomePage />
     <FormPage />
     <AddressPage />

@@ -51,6 +51,9 @@ class FormPage extends Component {
 
     this.setState(prevState => ({
       listDetails: [...prevState.listDetails, newForm],
+      projectName: '',
+      projectLink: '',
+      projectDescription: '',
     }))
   }
 
@@ -115,7 +118,7 @@ class FormPage extends Component {
         />
         <br />
         <h1 className="head-details-of-project">Projects</h1>
-        <ul>
+        <ul className="detailsOfProjects">
           {listDetails.map((eachItem, index) => (
             <ProjectPage eachItem={eachItem} key={eachItem.id} number={index} />
           ))}
