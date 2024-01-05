@@ -31,14 +31,35 @@
   background-color: transparent;
 }
 
-@media screen and (max-width: 768px) {
-  .displayFlex {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .addingBgc {
   background-color: #fdc435;
   padding: 6px;
+}
+
+.margin-rightD {
+  margin-right: 50px;
+}
+
+.margin-leftD {
+  margin-left: 50px;
+}
+
+.itemsOfLarge {
+  display: block;
+}
+
+.smallScale {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .itemsOfLarge {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .smallScale {
+    display: none;
+  }
 }
